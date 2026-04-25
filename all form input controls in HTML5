@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form Input Controls Example</h1>
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter your name">
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Enter your password">
+    <label for="Email">Email:</label>
+    <input type="email" placeholder="Enter your email"><br><br>
+    <label for="age">Age:</label>
+    <input type="Age">
+    <label for="rating">Rating:</label>
+    <input type="range">
+    <label for="dob">Date of Birth:</label>
+    <input type="date">
+    <label for="time">Time</label>
+    <input type="time">
+    <label for="image">Image:</label>
+    <img src="sample.png"width="150" height="50"><br><br>
+    <label for="week">Week:</label>
+    <input type="week"><br><br>
+    <label for="month">Month:</label>
+    <input type="month"><br><br>
+    <label for="datetime-local">Datetime-Local:</label>
+    <input type="datetime-local"><br><br>
+     <label for="url">URL:</label>
+    <input type="url"><br><br>
+    <label for="search">Search:</label>
+    <input type="text"><br><br>
+    <label for="gender">Gender:</label><br><br>
+    <input type="radio" name="male">
+    <label for="male">Male</label>
+    <input type="radio" name="female">
+     <label for="Female">Female</label><br><br>
+    <label for="Interests">Interests:</label><br><br>
+     <input type="checkbox">
+    <label for="reading">Reading</label>
+    <input type="checkbox">
+    <label for="sports">Sports</label>
+    <label for="country">Country:</label><select name="country" id="country">
+        <option value="select">select</option>
+        <option value="india">India</option>
+        <option value="United States">United States</option>
+        <option value="australia">Australia</option>
+     </select>
+     <label for="message">Message:</label><br>
+     <textarea rows="5" cols="50"placeholder="enter your text"></textarea>
+      <button>Submit</button>
+</body>
+</html>
