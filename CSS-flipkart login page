@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart login page</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    .container{
+      height: 500px;
+      width: 600px;
+      border: 1px solid;
+      display: flex;
+     }
+    .box1{
+      height: 500px;
+      width: 270px;
+      border: 1px solid;
+      margin: 0px;
+      padding: 30px;
+      background-color: #0044ff;
+      color:white;
+      font-size: 20px;
+      padding-top: 15px;
+    
+    }
+    .box2{
+      height: 500px;
+      width: 400px;
+      border: 1px solid;
+      margin:0px;
+      display: flex;
+      flex-direction: column;
+      background-color:beige;
+      padding-left: 20px;
+      padding-top: 50px;
+     
+      
+    }
+    .title{
+      font-size: 20px;
+      padding-top: 0px;
+    }
+    .input{
+      border:none;
+      border-bottom:1px solid black;
+      font-size: 20px;
+      background-color: beige;
+      
+     }
+    .innerbox{
+      border: 1px solid;
+      height:40px;
+      width:300px;
+      background-color: orange;
+      text-align: center;
+      padding-top: 12px;
+    }
+  .access{
+    font-size: 17px;
+    font-weight:normal;
+  }
+  .terms{
+    font-size: 15px;
+    color: gray;
+    font-weight: normal;
+  }
+  .account{
+   
+    text-align: center;
+    text-decoration: none;
+    padding-top: 230px;
+    
+  }
+  #anchor{
+    text-decoration: none;
+  }
+  #anchor2{
+    text-decoration: none;
+  }
+  .image{
+    padding-top: 140px;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1"> <br>
+      <h1 class="title">Login</h1>
+   <h1 class="access">Get access to your Orders, 
+       Wishlist and 
+       Recommendations</h1>
+     <img src="flipkart.jpeg" class="image">
+      </div>
+    <div class="box2">
+      
+      <input type="text" class="input" placeholder="Enter Email/Mobile number"><br>
+  <h2 class="terms" >By continuing,you agree to flipkart's <a href="Terms  of Use" id="anchor">Terms of Use</a> and <a href="privacy policy " id="anchor2">Privacy Policy</a></h2>
+  <br>
+      <div class="innerbox">
+        Request OTP
+        <br>
+      </div>
+      <a href="New to Flipkart?create an account" class="account">New to Flipkart? Create an account</a>
+  </div>
+</body>
+</html> 
